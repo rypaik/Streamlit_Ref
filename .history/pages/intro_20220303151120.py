@@ -98,7 +98,10 @@ def cs_body():
 -----
 
 **Welcome to my Code Compendium.**
+
 This website/webapp is my personal cheatsheet for of all the code snippets that I have needed over the past 2 years. This ended up being a quick detour into Streamlit that I fell in love with while I was building flask api's.   
+
+
 
 -----
 
@@ -159,6 +162,20 @@ When I can  get up for Air:
 
 
 **This site will be constantly updated as long as I program. Feel free to pass on the URL.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     ''')
 

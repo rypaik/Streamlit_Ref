@@ -91,75 +91,10 @@ def cs_body():
     
     col1, col2 = st.columns(2)
     col1.header('Ryan Paik')
-    col1.markdow('''
-*“You don't learn to walk by following rules. You learn by doing, and by falling over.”*
-    -Richard Branson
-
------
-
-**Welcome to my Code Compendium.**
-This website/webapp is my personal cheatsheet for of all the code snippets that I have needed over the past 2 years. This ended up being a quick detour into Streamlit that I fell in love with while I was building flask api's.   
-
------
-
-**Programming is only as deep as you want to dive in.**
-
-This webapp features the basic code snippets from all the "googling" from programming I have done. 
-
-I have taken the plunge and have created my own markdown notebooks organizing information from quick solution tidbits to documentation for programming languages. 
-
-
-
-Please visit my github for practical code and my research notebooks:
-
-*[rypaik (Ryan Paik) · GitHub](https://github.com/rypaik)*
-
-If you would like access to my Gist please email me.
-
-ryanpaik@protonmail.com
-
-
-
-
-
------
-
-**Bio:**
-
-Currently a Sophomore at University of Illinois at Urbana-Champaign
-
-Working Nights on my degree from the System Engineering Program
-
-
-
-**Hobbies:**
-
-Trying to become a real guitar hero minus the game system, playing Valorant with the St Mark's crew, getting interesting eats no matter where I am, and playing toss with my baseball field rat of a cousin.  
-
-The newest hobby is figuring out what I can build with all the new breakthroughs in technology.
-
-
-
-**Currently Working On**
-
-Frameworks and Languages:
-
-    - Flask, Django, FastAPI, PyTorch, Streamlit, OpenCV,  shell scripting, Python, C++
-
-Databases:
-
-    - Postgres, Redis, MongoDB, and applicable ORMs
-
-When I can  get up for Air:
-
-    - React, swift(ios), Rust, GO!! 
-
-    - Find a team to get a paper In Arxiv
-
-
-
-**This site will be constantly updated as long as I program. Feel free to pass on the URL.**
-
+    col1.markdow('''# Magic commands implicitly `st.write()`
+\'\'\' _This_ is some __Markdown__ \'\'\'
+a=3
+'dataframe:', data
     ''')
 
 #     col2.subheader('Display interactive widgets')
