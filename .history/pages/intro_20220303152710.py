@@ -89,7 +89,7 @@ def img_to_bytes(img_path):
 def cs_body():
     # Magic commands
     
-    col1 = st.columns(1)
+    col1, col2 = st.columns(1)
     col1.header('Ryan Paik')
     col1.markdown('''
 *“You don't learn to walk by following rules. You learn by doing, and by falling over.”*
