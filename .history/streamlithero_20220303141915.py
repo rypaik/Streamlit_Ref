@@ -17,7 +17,7 @@ display = np.array(display)
 # st.image(display, width = 400)
 # st.title("Data Storyteller Application")
 # col1, col2 = st.beta_columns(2)
-col1 = st.columns(1)
+col1, col2= st.columns(2)
 col1.image(display, width = 400)
 col1.title("Ryan Paik Coding Compendium")
 
