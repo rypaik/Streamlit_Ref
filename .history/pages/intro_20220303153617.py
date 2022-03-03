@@ -86,7 +86,7 @@ def img_to_bytes(img_path):
 # Main body of cheat sheet
 ##########################
 
-def cs_body():
+def cs_body()
     col1 = st.columns(1)
     col1.header('Ryan Paik')
     col1.markdown('''
