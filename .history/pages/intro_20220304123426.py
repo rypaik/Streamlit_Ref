@@ -141,8 +141,7 @@ The newest hobby is figuring out what I can build with all the new breakthroughs
 ##### Databases:  
     - Postgres, Redis, MongoDB, and applicable ORMs
 
-##### When I can  get up for Air:
-    - React, swift(ios), Rust, GO!!  
+##### When I can  get up for Air:    - React, swift(ios), Rust, GO!!  
     - Find a team to get a paper In ARXIV
 
 
