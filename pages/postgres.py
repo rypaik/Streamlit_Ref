@@ -26,7 +26,15 @@ def cs_body():
     
     page_title='Postgres for Python Cheatsheet',
     col1, col2= st.columns(2)
+    if 'count_main' not in st.session_state:
+        st.session_state.count_main = 0
+        st.session_state.count_main = st.session_state.count
+    print(f"Session state main: {st.session_state.count_main}")
+    # st.session_state.count_main = st.session_state.count
+    print(f"Session state: {st.session_state.count}")
+    print(f"Session state main: {st.session_state.count_main}")
     
+    col1.write('New Count = ', st.session_state.count_main)
     col1.subheader('Getting Started')
     col1.write("")
     col1.subheader("**Start, Stop, Restart, Login**")
